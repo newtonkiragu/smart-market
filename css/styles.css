@@ -14,7 +14,7 @@
   transform: rotateY(180deg);
 }
 
-.kales {
+.kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges {
   position: relative;
   margin: 20px;
   width: 200px;
@@ -25,11 +25,11 @@
   text-align: center;
 }
 
-.kales:hover {
+.kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover {
   transform: rotateY(180deg);
 }
 
-#kale {
+#kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges {
   height: 200px;
   width: 200px;
 }
