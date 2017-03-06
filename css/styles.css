@@ -1,0 +1,39 @@
+/* IDEA: styles for goods and services */
+
+.front, .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 300px;
+  backface-visibility: hidden;
+  background: white;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.kales {
+  position: relative;
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+  display: inline-block;
+  text-align: center;
+}
+
+.kales:hover {
+  transform: rotateY(180deg);
+}
+
+#kale {
+  height: 200px;
+  width: 200px;
+}
+
+.jumbotron {
+  color: green;
+}
