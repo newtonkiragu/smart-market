@@ -1,55 +1,182 @@
-/*Beginning of Minneh's CSS*/
+/* IDEA: styles for goods and services css*/
 
-h1, h2{
+.front, .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 300px;
+  backface-visibility: hidden;
+  background: white;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges {
+  position: relative;
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+  display: inline-block;
   text-align: center;
 }
+
+.kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover {
+  transform: rotateY(180deg);
+}
+
+#kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges {
+  height: 200px;
+  width: 200px;
+}
+
+.jumbotron {
+  color: green;
+}
+
+
+/* IDEA: end of goods and serices css*/
+
+
+/*Beginning of daily specials CSS*/
+
+h1, h2 {
+  text-align: center;
+}
+
 .picture-box {
   padding: 5px;
-  box-shadow: 0 0 25px 3px #aaa;
+  box-shadow: 0 0 25px 3px white;
   width: auto;
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#monday,
-#wednesday,
-#friday,
-#sunday{
+
+#monday, #wednesday, #friday, #sunday {
   float: left;
 }
-#tuesday,
-#thursday,
-#saturday{
+
+#tuesday, #thursday, #saturday {
   float: right;
 }
-#monday-text{
-padding-top: 5%;
+
+#monday-text {
+  padding-top: 5%;
 }
-#tuesday-text{
-padding-top: 25%;
+
+#tuesday-text {
+  padding-top: 20%;
 }
-#wednesday-text{
-padding-top: 2%;
+
+#wednesday-text {
+  padding-top: 2%;
 }
-#thursday-text{
-padding-top: 10%;
+
+#thursday-text {
+  padding-top: 10%;
 }
-#friday-text{
-padding-top: 15%;
+
+#friday-text {
+  padding-top: 15%;
 }
-#saturday-text{
-padding-top: 15%;
+
+#saturday-text {
+  padding-top: 15%;
 }
-#sunday-text{
+
+#sunday-text {
   padding-top: 22%;
 }
 
-p{
+p {
+  text-align: center;
+  font-size: 11pt;
+}
+h4 {
   text-align: center;
 }
 
-img{
-  max-width:100%;
-  max-height:100%;
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
-/*End of Minneh's CSS*/
+
+.bs-example {
+    margin: 20px;
+}
+.panel-heading{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.panelOne > .panel-heading {
+    background-image: none;
+    background-color: #cc0000;
+    color: white;
+
+}
+.panelTwo > .panel-heading {
+    background-image: none;
+    background-color: orange;
+    color: white;
+
+}
+.panelThree > .panel-heading {
+    background-image: none;
+    background-color: yellow;
+    color: black;
+
+}
+.panelFour > .panel-heading {
+    background-image: none;
+    background-color: green;
+    color: white;
+
+}
+.panelFive > .panel-heading {
+    background-image: none;
+    background-color: #0066ff;
+    color: white;
+
+}
+.panelSix > .panel-heading {
+    background-image: none;
+    background-color: indigo;
+    color: white;
+
+}
+.panelSeven > .panel-heading {
+    background-image: none;
+    background-color: violet;
+    color: white;
+
+}
+.panelOne {
+  background-color: #cc0000;
+  color: white;
+}
+.panelTwo {
+  background-color: orange;
+}
+.panelThree {
+  background-color: yellow;
+}
+.panelFour {
+  background-color: green;
+}
+.panelFive {
+  background-color: #0066ff;
+}
+.panelSix {
+  background-color: indigo;
+  color: white;
+}
+.panelSeven {
+  background-color: violet;
+}
+/*End of daily specials CSS*/
