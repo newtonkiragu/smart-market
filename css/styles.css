@@ -69,3 +69,33 @@ body {
 .back {
   transform: rotateY(180deg);
 }
+
+h3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#headimage {
+  animation-duration: 3s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
