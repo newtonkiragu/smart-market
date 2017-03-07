@@ -113,44 +113,47 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.panel-heading:hover{
+  animation: pulse 1s;
+}
 
-.panelOne > .panel-heading {
+.panelOne .panel-heading {
     background-image: none;
     background-color: #cc0000;
     color: white;
 
 }
-.panelTwo > .panel-heading {
+.panelTwo .panel-heading {
     background-image: none;
     background-color: orange;
     color: white;
 
 }
-.panelThree > .panel-heading {
+.panelThree .panel-heading {
     background-image: none;
     background-color: yellow;
     color: black;
 
 }
-.panelFour > .panel-heading {
+.panelFour .panel-heading {
     background-image: none;
     background-color: green;
     color: white;
 
 }
-.panelFive > .panel-heading {
+.panelFive .panel-heading {
     background-image: none;
     background-color: #0066ff;
     color: white;
 
 }
-.panelSix > .panel-heading {
+.panelSix .panel-heading {
     background-image: none;
     background-color: indigo;
     color: white;
 
 }
-.panelSeven > .panel-heading {
+.panelSeven .panel-heading {
     background-image: none;
     background-color: violet;
     color: white;
