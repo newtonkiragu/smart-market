@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/dailyspecials
 /* IDEA: styles for goods and services css*/
 
 .front, .back {
@@ -15,7 +18,11 @@
   transform: rotateY(180deg);
 }
 
+<<<<<<< HEAD
 .kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges, .beef, .chicken, .fish, .mince, .passionjuice, .mangojuice, .orangejuice, .fruitsmoothie {
+=======
+.kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges {
+>>>>>>> origin/dailyspecials
   position: relative;
   margin: 20px;
   width: 200px;
@@ -26,11 +33,19 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover, .beef:hover, .chicken:hover, .fish:hover, .mince:hover, .passionjuice:hover, .mangojuice:hover, .orangejuice:hover, .fruitsmoothie:hover {
   transform: rotateY(180deg);
 }
 
 #kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges, #beef, #chicken, #fish, #mince, #passionjuice, #mangojuice, #orangejuice, #fruitsmoothie {
+=======
+.kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover {
+  transform: rotateY(180deg);
+}
+
+#kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges {
+>>>>>>> origin/dailyspecials
   height: 200px;
   width: 200px;
 }
@@ -39,6 +54,7 @@
   color: green;
 }
 
+<<<<<<< HEAD
 .invoice {
   float: right;
   width: 20%;
@@ -51,20 +67,26 @@ table {
   width: 100px;
 }
 
+=======
+>>>>>>> origin/dailyspecials
 
 /* IDEA: end of goods and serices css*/
 
 
 /*Beginning of daily specials CSS*/
 
+<<<<<<< HEAD
 
 /*h1, h2 {
+=======
+h1, h2 {
+>>>>>>> origin/dailyspecials
   text-align: center;
 }
 
 .picture-box {
   padding: 5px;
-  box-shadow: 0 0 25px 3px #aaa;
+  box-shadow: 0 0 25px 3px white;
   width: auto;
   height: auto;
   margin-top: 20px;
@@ -84,7 +106,11 @@ table {
 }
 
 #tuesday-text {
+<<<<<<< HEAD
   padding-top: 25%;
+=======
+  padding-top: 20%;
+>>>>>>> origin/dailyspecials
 }
 
 #wednesday-text {
@@ -109,8 +135,54 @@ table {
 
 p {
   text-align: center;
+  font-size: 11pt;
+}
+h4 {
+  text-align: center;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bs-example {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.panel-heading{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.panel-heading:hover{
+  animation: pulse 1s;
+}
+
+.panelOne .panel-heading {
+    background-image: none;
+    background-color: #cc0000;
+    color: white;
+
+}
+.panelTwo .panel-heading {
+    background-image: none;
+    background-color: orange;
+    color: white;
+
+}
+.panelThree .panel-heading {
+    background-image: none;
+    background-color: yellow;
+    color: black;
+
+}
+.panelFour .panel-heading {
+    background-image: none;
+    background-color: green;
+    color: white;
+
+<<<<<<< HEAD
 img {
   max-width: 100%;
   max-height: 100%;
@@ -233,3 +305,48 @@ h3 {
   }
 }
 >>>>>>> origin/index
+=======
+}
+.panelFive .panel-heading {
+    background-image: none;
+    background-color: #0066ff;
+    color: white;
+
+}
+.panelSix .panel-heading {
+    background-image: none;
+    background-color: indigo;
+    color: white;
+
+}
+.panelSeven .panel-heading {
+    background-image: none;
+    background-color: violet;
+    color: white;
+
+}
+.panelOne {
+  background-color: #cc0000;
+  color: black;
+}
+.panelTwo {
+  background-color: orange;
+}
+.panelThree {
+  background-color: yellow;
+}
+.panelFour {
+  background-color: green;
+}
+.panelFive {
+  background-color: #0066ff;
+}
+.panelSix {
+  background-color: indigo;
+  color: white;
+}
+.panelSeven {
+  background-color: violet;
+}
+/*End of daily specials CSS*/
+>>>>>>> origin/dailyspecials

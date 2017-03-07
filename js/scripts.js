@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // $("button#btnkales").submit(function() {
 //   event.preventDefault();
 //
@@ -17,3 +18,6 @@ $(document).ready(function() {
 
   });
 });
+=======
+
+>>>>>>> origin/dailyspecials
