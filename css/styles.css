@@ -14,7 +14,7 @@
   transform: rotateY(180deg);
 }
 
-.kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges {
+.kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges, .beef, .chicken, .fish, .mince, .passionjuice, .mangojuice, .orangejuice, .fruitsmoothie {
   position: relative;
   margin: 20px;
   width: 200px;
@@ -25,11 +25,11 @@
   text-align: center;
 }
 
-.kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover {
+.kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover, .beef:hover, .chicken:hover, .fish:hover, .mince:hover, .passionjuice:hover, .mangojuice:hover, .orangejuice:hover, .fruitsmoothie:hover {
   transform: rotateY(180deg);
 }
 
-#kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges {
+#kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges, #beef, #chicken, #fish, #mince, #passionjuice, #mangojuice, #orangejuice, #fruitsmoothie {
   height: 200px;
   width: 200px;
 }
@@ -38,13 +38,26 @@
   color: green;
 }
 
+.invoice {
+  float: right;
+  width: 20%;
+  height: auto;
+}
+
+table {
+  border-color: black;
+  border-style: solid;
+  width: 100px;
+}
+
 
 /* IDEA: end of goods and serices css*/
 
 
 /*Beginning of daily specials CSS*/
 
-h1, h2 {
+
+/*h1, h2 {
   text-align: center;
 }
 
@@ -101,6 +114,7 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+*/
 
 
 /*End of daily specials CSS*/
