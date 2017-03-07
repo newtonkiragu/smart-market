@@ -3,9 +3,15 @@
   margin: auto;
 }
 
+.jumbotron {}
+
 #big {
   width: 700px;
   height: 400px;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 body {
