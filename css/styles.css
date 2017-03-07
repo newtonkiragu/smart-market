@@ -5,6 +5,11 @@
 
 .jumbotron {}
 
+#header {
+  height: 100px;
+  width: 100px;
+}
+
 #big {
   width: 700px;
   height: 400px;
@@ -37,8 +42,8 @@ body {
 }
 
 .flip-container, .front, .back {
-  width: 320px;
-  height: 480px;
+  width: 200px;
+  height: 200px;
 }
 
 
