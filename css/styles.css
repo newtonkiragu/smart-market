@@ -69,6 +69,46 @@
                             height: 400px;
                           }
                           /* IDEA: start of dailyspecials */
+                          /* IDEA: styles for goods and services css*/
+
+                          .front, .back {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 200px;
+                            height: 300px;
+                            backface-visibility: hidden;
+                            background: white;
+                          }
+
+                          .back {
+                            transform: rotateY(180deg);
+                          }
+
+                          .kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges {
+                            position: relative;
+                            margin: 20px;
+                            width: 200px;
+                            height: 300px;
+                            transition: all 0.6s ease;
+                            transform-style: preserve-3d;
+                            display: inline-block;
+                            text-align: center;
+                          }
+
+                          .kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover {
+                            transform: rotateY(180deg);
+                          }
+
+                          #kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges {
+                            height: 200px;
+                            width: 200px;
+                          }
+
+                          .jumbotron {
+                            color: green;
+                          }
+                          /* IDEA: end of goods and serices css*/
                           /*Beginning of daily specials CSS*/
 
                           h2 {}
