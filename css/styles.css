@@ -7,7 +7,7 @@
                             width: 200px;
                             height: 300px;
                             backface-visibility: hidden;
-                            background: white;
+                            background: #c6ffa7;
                           }
 
                           .back {
@@ -34,8 +34,16 @@
                             width: 200px;
                           }
 
-                          .jumbotron {
-                            color: green;
+                          #myCarousel {
+                            background-color: #c6ffa7;
+                          }
+
+                          .bodyForGoods {
+                            background-color: #97eb6a;
+                          }
+
+                          .invoice {
+                            text-align: left;
                           }
                           /* IDEA: start of dailyspecials */
 
