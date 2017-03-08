@@ -32,17 +32,26 @@
   border-left: 2px solid black;
 }
 
+#jumbotronforindex {
+  background-color: #97eb6a;
+}
+
 
 /*li a:hover {
   background-color: #111;
 }*/
 
 body {
-  background-color: grey;
+  background-color: #c6ffa7;
 }
 
 #flipper {
   text-align: center;
+}
+
+#faqimage {
+  width: 400px;
+  height: 200px;
 }
 
 
