@@ -44,7 +44,10 @@
 
 /*Beginning of daily specials CSS*/
 
-h1, h2 {
+h2 {
+
+}
+.title .offers{
   text-align: center;
 }
 
@@ -97,9 +100,6 @@ p {
   text-align: center;
   font-size: 11pt;
 }
-h4 {
-  text-align: center;
-}
 
 img {
   max-width: 100%;
@@ -110,11 +110,16 @@ img {
     margin-left: 100px;
     margin-right: 100px;
 }
+.panel-title{
+  text-align: center;
+}
+
 .panel-heading{
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 10px;
 }
+
 .panel-heading:hover{
   animation: pulse 1s;
 }
