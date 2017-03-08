@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <script type="text/javascript" scr="js/wow.min.js"></script>
+    <!--<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css"> -->
+    <!-- <script type="text/javascript" scr="js/wow.min.js"></script>
     <script>
       new WOW().init();
-    </script>
-    <script type="text/javascript" scr="js/scripts.js"></script>
-    <script type="text/javascript" scr="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="js/styles.js">
-    </script>
+    </script> -->
+    <!-- <script type="text/javascript" scr="js/jquery-3.1.1.js"></script> -->
+    <script type="text/javascript" src="js/scripts.js"></script>
 
     <title>Goods and Services</title>
   </head>
@@ -105,8 +103,7 @@
               </div>
               <div class="back">
                 <div class="dropdown">
-                  <button type="button" class="btn btn-primary dropdown-toggle" id="menu1" data-toggle="dropdown">KALES
-                    <span class="caret"></span></button>
+                  <span class="caret"></span></button>
                   <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
@@ -118,13 +115,13 @@
                     <h5>PRICE per KG KES.700</h5>
                     <!-- <label for="quantity">QTY:</label> -->
                     <input type="number" name="QTY" id="kale" class="form-control" placeholder="QTY(kg)">
+                    <button type="button" class="btn btn-primary dropdown-toggle" id="menu1" data-toggle="dropdown">KALES
                   </div>
-                  <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
                 </form>
               </div>
               <!-- IDEA: end of back -->
             </div>
-            <!-- IDEA: end of onions -->
+            <!-- IDEA: end of kales -->
             <div class="onions">
               <div class="front">
                 <h3>Onions</h3>
@@ -134,20 +131,20 @@
                 <div class="dropdown">
                   <button type="button" class="btn btn-primary dropdown-toggle" id="menu1" data-toggle="dropdown">ONIONS
                     <span class="caret"></span></button>
-                  <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                  </ul>
-                </div>
-                <form id="myForm" class="form-inline">
-                  <div class="form-group">
-                    <h5>PRICE per KG KES.700</h5>
-                    <!-- <label for="quantity">QTY:</label> -->
-                    <input type="number" name="QTY" id="onion" class="form-control" placeholder="QTY(kg)">
+                    <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
+                    </ul>
                   </div>
-                  <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
-                </form>
+                  <form id="myForm" class="form-inline">
+                    <div class="form-group">
+                      <h5>PRICE per KG KES.700</h5>
+                      <!-- <label for="quantity">QTY:</label> -->
+                      <input type="number" name="QTY" id="onion" class="form-control" placeholder="QTY(kg)">
+                    </div>
+                    <button type="button" name="button" id="buyonion" class="btn btn-success">BUY</button>
+                  </form>
               </div>
               <!-- IDEA: end of back -->
             </div>
@@ -173,7 +170,7 @@
                     <!-- <label for="quantity">QTY:</label> -->
                     <input type="number" name="QTY" id="tomatoe" class="form-control" placeholder="QTY(kg)">
                   </div>
-                  <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                  <button type="submit" name="button" id="buytomatoe" class="btn btn-success">BUY</button>
                 </form>
               </div>
               <!-- IDEA: end of back -->
@@ -200,7 +197,7 @@
                     <!-- <label for="quantity">QTY:</label> -->
                     <input type="number" name="QTY" id="potatoe" class="form-control" placeholder="QTY(kg)">
                   </div>
-                  <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                  <button type="submit" name="button" id="buypotatoe" class="btn btn-success">BUY</button>
                 </form>
               </div>
               <!-- IDEA: end of back -->
@@ -246,7 +243,7 @@
                       <!-- <label for="quantity">QTY:</label> -->
                       <input type="number" name="QTY" id="banana" class="form-control" placeholder="QTY(kg)">
                     </div>
-                    <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                    <button type="submit" name="button" id="buybanana" class="btn btn-success">BUY</button>
                   </form>
                 </div>
 
@@ -277,7 +274,7 @@
                       <!-- <label for="quantity">QTY:</label> -->
                       <input type="number" name="QTY" id="mangoe" class="form-control" placeholder="QTY(kg)">
                     </div>
-                    <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                    <button type="submit" name="button" id="buymangoe" class="btn btn-success">BUY</button>
                   </form>
                 </div>
                 <!-- IDEA: end of back -->
@@ -307,7 +304,7 @@
                       <!-- <label for="quantity">QTY:</label> -->
                       <input type="number" name="QTY" id="apple" class="form-control" placeholder="QTY(kg)">
                     </div>
-                    <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                    <button type="submit" name="button" id="buyapple" class="btn btn-success">BUY</button>
                   </form>
                 </div>
                 <!-- IDEA: end of back -->
@@ -337,7 +334,7 @@
                       <!-- <label for="quantity">QTY:</label> -->
                       <input type="number" name="QTY" id="orange" class="form-control" placeholder="QTY(kg)">
                     </div>
-                    <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                    <button type="submit" name="button" id="buyorange" class="btn btn-success">BUY</button>
                   </form>
                 </div>
                 <!-- IDEA: end of back -->
@@ -384,7 +381,7 @@
                         <!-- <label for="quantity">QTY:</label> -->
                         <input type="number" name="QTY" id="beef" class="form-control" placeholder="QTY(kg)">
                       </div>
-                      <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                      <button type="submit" name="button" id="buybeef" class="btn btn-success">BUY</button>
                     </form>
                   </div>
                   <!-- IDEA: end of back -->
@@ -416,7 +413,7 @@
                         <!-- <label for="quantity">QTY:</label> -->
                         <input type="number" name="QTY" id="chicken" class="form-control" placeholder="QTY(kg)">
                       </div>
-                      <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                      <button type="submit" name="button" id="buychicken" class="btn btn-success">BUY</button>
                     </form>
                   </div>
                   <!-- IDEA: end of back -->
@@ -448,7 +445,7 @@
                         <!-- <label for="quantity">QTY:</label> -->
                         <input type="number" name="QTY" id="fish" class="form-control" placeholder="QTY(kg)">
                       </div>
-                      <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                      <button type="submit" name="button" id="buyfish" class="btn btn-success">BUY</button>
                     </form>
                   </div>
                   <!-- IDEA: end of back -->
@@ -480,7 +477,7 @@
                         <!-- <label for="quantity">QTY:</label> -->
                         <input type="number" name="QTY" id="mince" class="form-control" placeholder="QTY(kg)">
                       </div>
-                      <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                      <button type="submit" name="button" id="buymince" class="btn btn-success">BUY</button>
                     </form>
                   </div>
                   <!-- IDEA: end of back -->
@@ -528,7 +525,7 @@
                           <!-- <label for="quantity">QTY:</label> -->
                           <input type="number" name="QTY" id="passionjuice" class="form-control" placeholder="QTY(kg)">
                         </div>
-                        <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                        <button type="submit" name="button" id="buypassionjuice" class="btn btn-success">BUY</button>
                       </form>
                     </div>
                     <!-- IDEA: end of back -->
@@ -560,7 +557,7 @@
                           <!-- <label for="quantity">QTY:</label> -->
                           <input type="number" name="QTY" id="mangojuice" class="form-control" placeholder="QTY(kg)">
                         </div>
-                        <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                        <button type="submit" name="button" id="buymangojuice" class="btn btn-success">BUY</button>
                       </form>
                     </div>
                     <!-- IDEA: end of back -->
@@ -592,7 +589,7 @@
                           <!-- <label for="quantity">QTY:</label> -->
                           <input type="number" name="QTY" id="orangejuice" class="form-control" placeholder="QTY(kg)">
                         </div>
-                        <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                        <button type="submit" name="button" id="buyorangejuice" class="btn btn-success">BUY</button>
                       </form>
                     </div>
                     <!-- IDEA: end of back -->
@@ -624,7 +621,7 @@
                           <!-- <label for="quantity">QTY:</label> -->
                           <input type="number" name="QTY" id="smoothie" class="form-control" placeholder="QTY(kg)">
                         </div>
-                        <button type="submit" name="button" id="buy" class="btn btn-success">BUY</button>
+                        <button type="submit" name="button" id="buysmoothie" class="btn btn-success">BUY</button>
                       </form>
                     </div>
                     <!-- IDEA: end of back -->
