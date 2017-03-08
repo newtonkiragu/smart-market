@@ -200,14 +200,12 @@
                             background-color: violet;
                           }
                           /*End of daily specials CSS*/
-                          /* IDEA: start of index */
+                          /*index and contacts css starts here*/
 
                           .carousel-inner>.item>img, .carousel-inner>.item>a>img {
                             width: 70%;
                             margin: auto;
                           }
-
-                          .jumbotron {}
 
                           #header {
                             height: 100px;
@@ -219,16 +217,41 @@
                             height: 400px;
                           }
 
-                          li a:hover {
-                            background-color: #111;
+                          #info {
+                            display: flex;
+                            justify-content: center;
                           }
 
+                          #footer {
+                            background-image: url("../images/smart5.jpg");
+                          }
+
+                          #contacts {
+                            list-style: none;
+                          }
+
+                          #faqs {
+                            border-left: 2px solid black;
+                          }
+
+                          #jumbotronforindex {
+                            background-color: #97eb6a;
+                          }
+                          /*li a:hover {
+  background-color: #111;
+}*/
+
                           body {
-                            background-color: grey;
+                            background-color: #c6ffa7;
                           }
 
                           #flipper {
                             text-align: center;
+                          }
+
+                          #faqimage {
+                            width: 400px;
+                            height: 200px;
                           }
                           /* entire container, keeps perspective */
 
@@ -273,8 +296,8 @@
                             transform: rotateY(180deg);
                           }
 
-                          h3 {
-                            animation-duration: 3s;
+                          #best {
+                            animation-duration: 2s;
                             animation-name: slidein;
                           }
 
@@ -289,7 +312,7 @@
                             }
                           }
 
-                          #headimage, #fadein {
+                          #headimage, #fadein, #expe {
                             animation-duration: 6s;
                             animation-name: fadein;
                           }
@@ -302,4 +325,4 @@
                               opacity: 1;
                             }
                           }
-                          /* IDEA: end of index */
+                          /*index and contacts css ends here*/

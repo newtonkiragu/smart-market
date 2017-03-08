@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
     <meta charset="utf-8">
@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/animate.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/styles.js"></script>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-
+    <link rel="stylesheet" href="css/font-awesome.css">
   </head>
 
   <body>
-    <div class="jumbotron text-center">
+    <div id="jumbotronforindex" class="jumbotron text-center">
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -42,115 +43,50 @@
                 </ul>
               </li>
               <li><a href="#">Goods</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a href="file:///C:/Users/Dalberg/Desktop/smart-market-master/contacts.html">Contacts</a></li>
 
             </ul>
-            <form class="navbar-form navbar-left">
+            <form id="tohideform" class="navbar-form navbar-left">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Enter Your Name">
+                <input type="text" class="form-control" placeholder="Enter Your Name" id="userinfo">
               </div>
               <button type="submit" class="btn btn-success">Submit</button>
             </form>
 
-            <!-- <ul>
-            <li>
-              <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"></a>
-            </li>
-            <li>
-              <a href="#"></a>
-            </li>
-          </ul> -->
           </div>
         </div>
       </nav>
       <img id="headimage" src="images/smart1.png" alt="">
-      <h3>FOR THE BEST SHOPPING EXPERIENCE</h3>
-      <!-- <div id="flips" class="flip-container" ontouchstart="this.classList.toggle('hover');">
-      <div class="flipper">
-        <div class="front">
-          <!- front content -->
-      <!-- <img id="header" src="images/smart1.png" alt="">
-        </div>
-        <div class="back">
-          <!-back content -->
-      <!-- <h2><strong><em style="color:blue; font-weight: bold; font-size: 18pt;">FOR THE BEST SHOPPING EXPERIENCE</em></strong></h2>
+      <h3><span id="best">FOR THE BEST</span><br><span id="expe"> SHOPPING EXPERIENCE</span><br><span id="best">GLOBALLY<span></h3>
+
+    </div>
+    <div class="container" id="info">
+      <div class="container">
+        <div class="About-website">
+          <h4 class="cont text-center"><strong>About Smart Marketing Solutions</strong></h4>
+          <p>Ever been in a situation where you want something so bad but your pocket is screaming for help? Thats where we come in to the rescue. Buy goods in bulk at wholesale prices and consume them at your own convinience. We offer fruits, vegetables
+            and drinks. When you select on an item, there are options whether you would like to buy it in wholesale, retail or consumer price. You coulld even have it delivered to your home. <a href="goods.html" style="color: blue;">Click here</a> to
+            buy our goods.
+          </p>
         </div>
       </div>
-    </div> -->
-      <!-- <img id="header" src="images/smart4.jpg" alt=""> -->
-    </div>
-    <!-- <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt=""> -->
-    <div class="jumbotron">
-
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img id="big" src="images/smart2.png">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="carousel-caption">
-              <h3 style="color: black"><strong>SAVE</strong></h3>
-              <p id="fadein" style="color: black">Minimised spending with maximized satisfaction.</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img id="big" src="images/smart4.jpg">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="carousel-caption">
-              <h3 style="color: black"><strong>SATISFACTION</strong></h3>
-              <p id="fadein" style="color: black">Budget for your household items at the click of a button.</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img id="big" src="images/smart3.png">
-            <div class="carousel-caption">
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <h3 style="color: black"><strong>SHOP</strong></h3>
-              <p id="fadein" style="color: black">At the comfort of your wherever you are conviniently and fast.</p>
-            </div>
-          </div>
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+      <div class="container">
+        <div class="About-daily-specials">
+          <h4 class="cont text-center"><strong>Know more about our daily specials</strong></h4>
+          <p>Enjoy our terrific offers each and every day of the week with a discount on a product every day. Isn't that fantastic? <a href="#" style="color: blue;">Click here</a> and know what fantastic offer we have for you today.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="About-contacts">
+          <h4 class="cont text-center"><strong>Contacts and Feedback</strong></h4>
+          <p>We as the Smart Market Solutions care about the consumer. In case you have a feedback or something you would like us to change please notify us in the <a href="file:///C:/Users/Dalberg/Desktop/smart-market-master/contacts.html" style="color: blue;">contacts</a>            section. Feel free to inform us of anything that you come across either positive or negative. We also have a number of answers to the frequently asked questions in the FAQs sectio that is also in the contacts section.</p>
         </div>
       </div>
     </div>
 
+    <div id="footer" class="container">
+
+    </div>
   </body>
 
 </html>
