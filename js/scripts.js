@@ -1,6 +1,8 @@
+var kale = $("#kale").val();
 $(document).ready(function() {
-  event.preventDefault();
-  $("form#myForm").submit(function(event){
+  $("button#buyonion").click(function(event) {
+    event.preventDefault();
 
+    $(".quantity").text(kale);
   });
 });

@@ -1,6 +1,6 @@
                           /* IDEA: styles for goods and services css*/
 
-                          .front, .back {
+                          .front {
                             position: absolute;
                             top: 0;
                             left: 0;
@@ -12,9 +12,16 @@
 
                           .back {
                             transform: rotateY(180deg);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 200px;
+                            height: 700px;
+                            backface-visibility: hidden;
+                            background: #c6ffa7;
                           }
 
-                          .kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges, .beef, .chicken, .fish, .mince, .passionjuice, .mangojuice, .orangejuice, .fruitsmoothie {
+                          .kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges, .beefs, .chickens, .fishs, .minced, .passionjuices, .mangojuices, .orangejuices, .fruitsmoothies {
                             position: relative;
                             margin: 20px;
                             width: 200px;
@@ -25,11 +32,11 @@
                             text-align: center;
                           }
 
-                          .kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover, .beef:hover, .chicken:hover, .fish:hover, .mince:hover, .passionjuice:hover, .mangojuice:hover, .orangejuice:hover, .fruitsmoothie:hover {
+                          .kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover, .beefs:hover, .chickens:hover, .fishs:hover, .minced:hover, .passionjuices:hover, .mangojuices:hover, .orangejuices:hover, .fruitsmoothies:hover {
                             transform: rotateY(180deg);
                           }
 
-                          #kale, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges, #beef, #chicken, #fish, #mince, #passionjuice, #mangojuice, #orangejuice, #fruitsmoothie {
+                          #kales, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges, #beefs, #chickens, #fishs, #minced, #passionjuices, #mangojuices, #orangejuices, #fruitsmoothies {
                             height: 200px;
                             width: 200px;
                           }
@@ -40,10 +47,26 @@
 
                           .bodyForGoods {
                             background-color: #97eb6a;
+                            /*flex-grow: 1;*/
+                            flex-basis: 80%
                           }
 
                           .invoice {
                             text-align: left;
+                            width: 300px;
+                            /*position: fixed;*/
+                          }
+
+                          .body {
+                            display: flex;
+                          }
+
+                          .carousel-inner {
+                            overflow-y: hidden;
+                          }
+
+                          .item {
+                            height: 400px;
                           }
                           /* IDEA: start of dailyspecials */
                           /*Beginning of daily specials CSS*/
