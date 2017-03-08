@@ -1,9 +1,9 @@
+/*index css starts here*/
+
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   width: 70%;
   margin: auto;
 }
-
-.jumbotron {}
 
 #header {
   height: 100px;
@@ -15,9 +15,27 @@
   height: 400px;
 }
 
-li a:hover {
-  background-color: #111;
+#info {
+  display: flex;
+  justify-content: center;
 }
+
+#footer {
+  background-image: url("../images/smart5.jpg");
+}
+
+#contacts {
+  list-style: none;
+}
+
+#faqs {
+  border-left: 2px solid black;
+}
+
+
+/*li a:hover {
+  background-color: #111;
+}*/
 
 body {
   background-color: grey;
