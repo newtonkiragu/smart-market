@@ -1,0 +1,348 @@
+                          /* IDEA: styles for goods and services css*/
+
+                          .front {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 200px;
+                            height: 300px;
+                            backface-visibility: hidden;
+                            background: #c6ffa7;
+                          }
+
+                          .back {
+                            transform: rotateY(180deg);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 200px;
+                            height: 700px;
+                            backface-visibility: hidden;
+                            background: #c6ffa7;
+                          }
+
+                          .kales, .onions, .tomatoes, .potatoes, .bananas, .mangoes, .apples, .oranges, .beefs, .chickens, .fishs, .minced, .passionjuices, .mangojuices, .orangejuices, .fruitsmoothies {
+                            position: relative;
+                            margin: 20px;
+                            width: 200px;
+                            height: 300px;
+                            transition: all 0.6s ease;
+                            transform-style: preserve-3d;
+                            display: inline-block;
+                            text-align: center;
+                          }
+
+                          .kales:hover, .onions:hover, .tomatoes:hover, .potatoes:hover, .bananas:hover, .mangoes:hover, .apples:hover, .oranges:hover, .beefs:hover, .chickens:hover, .fishs:hover, .minced:hover, .passionjuices:hover, .mangojuices:hover, .orangejuices:hover, .fruitsmoothies:hover {
+                            transform: rotateY(180deg);
+                          }
+
+                          #kales, #onions, #tomatoes, #potatoes, #bananas, #mangoes, #apples, #oranges, #beefs, #chickens, #fishs, #minced, #passionjuices, #mangojuices, #orangejuices, #fruitsmoothies {
+                            height: 200px;
+                            width: 200px;
+                          }
+
+                          #myCarousel {
+                            background-color: #c6ffa7;
+                          }
+
+                          .bodyForGoods {
+                            background-color: #97eb6a;
+                            /*flex-grow: 1;*/
+                            flex-basis: 80%
+                          }
+
+                          .invoice {
+                            text-align: left;
+                            width: 300px;
+                            /*position: fixed;*/
+                          }
+
+                          .body {
+                            display: flex;
+                          }
+
+                          .carousel-inner {
+                            overflow-y: hidden;
+                          }
+
+                          .item {
+                            height: 400px;
+                          }
+                          /* IDEA: start of dailyspecials */
+                          /*Beginning of daily specials CSS*/
+
+                          h2 {}
+
+                          .title .offers {
+                            text-align: center;
+                          }
+
+                          .picture-box {
+                            padding: 5px;
+                            box-shadow: 0 0 25px 3px white;
+                            width: auto;
+                            height: auto;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                          }
+
+                          #monday, #wednesday, #friday, #sunday {
+                            float: left;
+                          }
+
+                          #tuesday, #thursday, #saturday {
+                            float: right;
+                          }
+
+                          #monday-text {
+                            padding-top: 5%;
+                          }
+
+                          #tuesday-text {
+                            padding-top: 20%;
+                          }
+
+                          #wednesday-text {
+                            padding-top: 2%;
+                          }
+
+                          #thursday-text {
+                            padding-top: 10%;
+                          }
+
+                          #friday-text {
+                            padding-top: 15%;
+                          }
+
+                          #saturday-text {
+                            padding-top: 15%;
+                          }
+
+                          #sunday-text {
+                            padding-top: 22%;
+                          }
+
+                          p {
+                            text-align: center;
+                            font-size: 11pt;
+                          }
+
+                          img {
+                            max-width: 100%;
+                            max-height: 100%;
+                          }
+
+                          .bs-example {
+                            margin-left: 100px;
+                            margin-right: 100px;
+                          }
+
+                          .panel-title {
+                            text-align: center;
+                          }
+
+                          .panel-heading {
+                            padding-top: 30px;
+                            padding-bottom: 30px;
+                            border-radius: 10px;
+                          }
+
+                          .panel-heading:hover {
+                            animation: pulse 1s;
+                          }
+
+                          .panelOne .panel-heading {
+                            background-image: none;
+                            background-color: #cc0000;
+                            color: white;
+                          }
+
+                          .panelTwo .panel-heading {
+                            background-image: none;
+                            background-color: orange;
+                            color: white;
+                          }
+
+                          .panelThree .panel-heading {
+                            background-image: none;
+                            background-color: yellow;
+                            color: black;
+                          }
+
+                          .panelFour .panel-heading {
+                            background-image: none;
+                            background-color: green;
+                            color: white;
+                          }
+
+                          .panelFive .panel-heading {
+                            background-image: none;
+                            background-color: #0066ff;
+                            color: white;
+                          }
+
+                          .panelSix .panel-heading {
+                            background-image: none;
+                            background-color: indigo;
+                            color: white;
+                          }
+
+                          .panelSeven .panel-heading {
+                            background-image: none;
+                            background-color: violet;
+                            color: white;
+                          }
+
+                          .panelOne {
+                            background-color: #cc0000;
+                            color: black;
+                          }
+
+                          .panelTwo {
+                            background-color: orange;
+                          }
+
+                          .panelThree {
+                            background-color: yellow;
+                          }
+
+                          .panelFour {
+                            background-color: green;
+                          }
+
+                          .panelFive {
+                            background-color: #0066ff;
+                          }
+
+                          .panelSix {
+                            background-color: indigo;
+                            color: white;
+                          }
+
+                          .panelSeven {
+                            background-color: violet;
+                          }
+                          /*End of daily specials CSS*/
+                          /*index and contacts css starts here*/
+
+                          .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+                            width: 70%;
+                            margin: auto;
+                          }
+
+                          #header {
+                            height: 100px;
+                            width: 100px;
+                          }
+
+                          #big {
+                            width: 700px;
+                            height: 400px;
+                          }
+
+                          #info {
+                            display: flex;
+                            justify-content: center;
+                          }
+
+                          #footer {
+                            background-image: url("../images/smart5.jpg");
+                          }
+
+                          #contacts {
+                            list-style: none;
+                          }
+
+                          #faqs {
+                            border-left: 2px solid black;
+                          }
+
+                          #jumbotronforindex {
+                            background-color: #97eb6a;
+                          }
+
+                          body {
+                            background-color: #c6ffa7;
+                          }
+
+                          #flipper {
+                            text-align: center;
+                          }
+
+                          #faqimage {
+                            width: 400px;
+                            height: 200px;
+                          }
+                          /* entire container, keeps perspective */
+
+                          .flip-container {
+                            perspective: 1000px;
+                          }
+                          /* flip the pane when hovered */
+
+                          .flip-container:hover .flipper, .flip-container.hover .flipper {
+                            transform: rotateY(180deg);
+                          }
+
+                          .flip-container, .front, .back {
+                            width: 200px;
+                            height: 200px;
+                          }
+                          /* flip speed goes here */
+
+                          .flipper {
+                            transition: 0.6s;
+                            transform-style: preserve-3d;
+                            position: relative;
+                          }
+                          /* hide back of pane during swap */
+
+                          .front, .back {
+                            backface-visibility: hidden;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                          }
+                          /* front pane, placed above back */
+
+                          .front {
+                            z-index: 2;
+                            /* for firefox 31 */
+                            transform: rotateY(0deg);
+                          }
+                          /* back, initially hidden pane */
+
+                          .back {
+                            transform: rotateY(180deg);
+                          }
+
+                          #best {
+                            animation-duration: 2s;
+                            animation-name: slidein;
+                          }
+
+                          @keyframes slidein {
+                            from {
+                              margin-left: 100%;
+                              width: 300%;
+                            }
+                            to {
+                              margin-left: 0%;
+                              width: 100%;
+                            }
+                          }
+
+                          #headimage, #fadein, #expe {
+                            animation-duration: 6s;
+                            animation-name: fadein;
+                          }
+
+                          @keyframes fadein {
+                            from {
+                              opacity: 0;
+                            }
+                            to {
+                              opacity: 1;
+                            }
+                          }
+                          /*index and contacts css ends here*/

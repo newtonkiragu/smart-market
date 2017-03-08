@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate .css">
+    <script type="text/javascript" scr="js/wow.min.js"></script>
+    <script>
+      // new WOW().init();
+    </script>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Daily Specials</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="https://github.com/newtonkiragu/smart-market" target="_blank">Smart Marketing Solutions</a>
+        </div>
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="daily.html">Daily Specials</a></li>
+            <li><a href="goods.html">Goods</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+
+          </ul>
+          <form id="tohideform" class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Enter Your Name" id="userinfo">
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="title" class="animated infinite pulse">DAILY SPECIALS</h1>
+        <h2 class="offers">We Have Great Offers Available Every Single Day!</h2>
+      </div>
+    </div>
+    <div class="bs-example">
+      <div class="panel-group" id="accordion">
+        <!-- Beginning of accordion div-->
+        <div class="panel panel-default panelOne">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            <div class="panel-heading one">
+              <h4 class="panel-title">
+                    MONDAY
+                </h4>
+            </div>
+          </a>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-md-6">
+                <div id="monday" class="picture-box">
+                  <img src="img/MEGA-MEATFEST-MONDAY.jpg" alt="Monday">
+                </div>
+              </div>
+              <div class="col-md-6" id="monday-text">
+                <h1 class="title">MEGA MEATFEST MONDAY!</h1>
+                <br>
+                <p>Satisfy the carnivore within you with our <strong>Mega Meatfest Mondays</strong>! We offer top-of-the-range beef, chicken or goat meat ither raw or fresh off the grill at 20% off our usual price!<br> Feeling ravenous? Try our Mixed Grill
+                  Platter - a meat-lover's dream which showcases a combination of all three: tender beef, juicy chicken cutlets as well as delicious goat meat. An excellent choice for families or groups of friends.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default panelTwo">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            <div class="panel-heading two">
+              <h4 class="panel-title">
+                    TUESDAY
+                </h4>
+            </div>
+          </a>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-md-6" id="tuesday-text">
+                <h1 class="title">TASTY TREATS TUESDAY!</h1>
+                <br>
+                <p>Enjoy our fresh fruit at a 15% discount every Tuesday.<br>Go ahead, treat yourself to something sweet!</p>
+              </div>
+              <div class="col-md-6">
+                <div id="tuesday" class="picture-box">
+                  <img src="img/TASTY-TREATS-TUESDAY.jpg" alt="Tuesday">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default panelThree">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <div class="panel-heading three">
+              <h4 class="panel-title">
+                    WEDNESDAY
+                </h4>
+            </div>
+          </a>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-md-6">
+                <div id="wednesday" class="picture-box">
+                  <img src="img/WILD-WINGS-WEDNESDAY.jpg" alt="Wednesday">
+                </div>
+              </div>
+              <div class="col-md-6" id="wednesday-text">
+                <h1 class="title">WILD WINGS WEDNESDAY!</h1>
+                <br>
+                <p>Whether you're a fan of the crisp or you like it spicy, we've got you covered! Enjoy either a half-kg or an entire kg of unseasoned or marinated raw/cooked chicken wings at 20% off our usual price!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default panelFour">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+            <div class="panel-heading four">
+              <h4 class="panel-title">
+                    THURSDAY
+                </h4>
+            </div>
+          </a>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-md-6" id="thursday-text">
+                <h1 class="title">THIRSTY TREATS THURSDAY!</h1>
+                <br>
+                <p>Quench your thirst with our signature freshly squeezed juices, or order a blend of your choice of ingredients! Go ahead, try one today!</p>
+              </div>
+              <div class="col-md-6">
+                <div id="thursday" class="picture-box">
+                  <img src="img/THIRSTY-TREATS-THURSDAY.jpg" alt="Thursday">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default panelFive">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+            <div class="panel-heading five">
+              <h4 class="panel-title">
+                    FRIDAY
+                </h4>
+            </div>
+          </a>
+          <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-md-6">
+                <div id="friday" class="picture-box">
+                  <img src="img/FREE-DELIVERY-FRIDAY.jpg" alt="Friday">
+                </div>
+              </div>
+              <div class="col-md-6" id="friday-text">
+                <h1 class="title">FREE DELIVERY FRIDAY!</h1>
+                <br>
+                <p>Drop us a line, make your order and we will deliver your goods free of charge every Friday for all orders within the CBD.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default panelSix">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+            <div class="panel-heading six">
+              <h4 class="panel-title">
+                    SATURDAY
+                </h4>
+            </div>
+          </a>
+          <div id="collapseSix" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-md-6" id="saturday-text">
+                <h1 class="title">SAUSAGE FEAST SATURDAY!</h1>
+                <br>
+                <p>Choma sausages, African sausage (mutura), beef sausages, pork sausages, smokies, chipolatas, you name it! Enjoy them all - raw or freshly grilled - at a 20% discount every Saturday.</p>
+              </div>
+              <div class="col-md-6">
+                <div id="saturday" class="picture-box">
+                  <img src="img/SAUSAGE-FEAST-SATURDAY.jpg" alt="Saturday">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default panelSeven">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+            <div class="panel-heading seven">
+              <h4 class="panel-title">
+                    SUNDAY
+                </h4>
+            </div>
+          </a>
+          <div id="collapseSeven" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="col-md-6">
+                <div id="sunday" class="picture-box">
+                  <img src="img/SUPER-SALE-SUNDAY.jpg" alt="Sunday">
+                </div>
+              </div>
+              <div class="col-md-6" id="sunday-text">
+                <h1 class="title">SUPER SALE SUNDAY!</h1>
+                <br>
+                <p>Need some tomatoes for that sauce? Some fresh ginger for your tea? Maybe some bell peppers to spice up that salad... Whatever it is we've got you covered and then some! Shop with us and enjoy a discount on all raw produce purchased all
+                  day every Sunday.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of accordion div-->
+    </div>
+    <div class="container">
+      <p>Interested? Get in touch with us <a href="contacts.html">right here</a>!</p>
+    </div>
+  </body>
+
+</html>
