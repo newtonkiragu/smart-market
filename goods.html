@@ -24,7 +24,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a class="navbar-brand" href="https://github.com/newtonkiragu/smart-market" target="_blank">Smart Marketing Solutions</a>
+          <a class="navbar-brand" href="https://github.com/newtonkiragu/smart-market" target="_blank">Smart Market</a>
         </div>
         <div class="navbar-collapse">
           <ul class="nav navbar-nav">
@@ -46,635 +46,495 @@
     </nav>
     <div class="bodyForGoods">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- IDEA: indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- IDEA: wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-
-          <div class="item active">
-            <img src="images/vegetables-carousel.jpg" alt="vegetables" title="VEGETABLES">
-            <div class="carousel-caption">
-              <h2 style="color: white"><strong>VEGETABLES</strong></h2>
-              <h4 id="fadein" style="color: black">We provide kales, spinach, onions, tomatoes and potatoes</h4>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="images/fuits-carousel.jpeg" alt="fruits" title="FRUITS">
-            <div class="carousel-caption">
-              <h2 style="color: white"><strong>FRUITS</strong></h2>
-              <h4 id="fadein" style="color: black">Bananas, mangoes, apples and oranges are among the fruits that we offer</h4>
-            </div>
-          </div>
-
-
-          <div class="item">
-            <img src="images/meats-carousel.jpg" alt="meat" title="MEAT">
-            <div class="carousel-caption">
-              <h2 style="color: white"><strong>MEAT</strong></h2>
-              <h4 id="fadein" style="color: black">In our collection of meat-stuff, we have beef, chicken, fish and minced meat</h4>
-            </div>
-          </div>
-
-
-          <div class="item">
-            <img src="images/smoothies.jpg" alt="smoothies" title="DRINKS">
-            <div class="carousel-caption">
-              <h2 style="color: white"><strong>SMOOTHIES</strong></h2>
-              <h4 id="fadein" style="color: black">Amongst our collection of smoothies are the fruit juices and the vegetable juices</h4>
-            </div>
-          </div>
-
-
-
-          <!-- IDEA: left and right carousel control -->
-
-          <a class="left carousel-control " href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-
-        </div>
-      </div>
-      <!-- IDEA: end of carousel -->
-
+      <br><br><br>
       <!-- <div class="jumbotron"> -->
       <h2>VEGETABLES</h2>
-      <p>In smart market, we do offer a variety of goods and services amongst them including vegetables:
 
-        <div class="cardContainer">
-          <div class="row">
-            <div class="kales">
-              <div class="front">
-                <h3>Kales</h3>
-                <img src="images/kales.jpg" alt="Kales" id="kales" title="KALES">
+      <div class="cardContainer">
+        <div class="row">
+          <div class="kales">
+            <div class="front">
+              <h3>Kale</h3>
+              <img src="images/kales.jpg" alt="Kales" id="kales" title="KALE">
+            </div>
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-primary" id="menu1" data-toggle="dropdown">KALE
+                    </button>
               </div>
-              <div class="back">
-                <div class="dropdown">
-                  <span class="caret"></span></button>
-                  <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                  </ul>
+              <form id="kaleForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.700</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="kale" class="form-control" placeholder="QTY(kg)">
                 </div>
-                <form id="myForm" class="form-inline">
-                  <div class="form-group">
-                    <h5>PRICE per KG KES.700</h5>
-                    <!-- <label for="quantity">QTY:</label> -->
-                    <input type="number" name="QTY" id="kale" class="form-control" placeholder="QTY(kg)">
-                    <button type="button" class="btn btn-primary dropdown-toggle" id="menu1" data-toggle="dropdown">KALES
-                  </div>
-                </form>
-              </div>
-              <!-- IDEA: end of back -->
+                <button type="submit" name="button" id="buykale" class="btn btn-success">BUY</button>
+              </form>
             </div>
-            <!-- IDEA: end of kales -->
-            <div class="onions">
-              <div class="front">
-                <h3>Onions</h3>
-                <img src="images/onion.jpg" alt="Onions" id="onions" title="ONIONS">
-              </div>
-              <div class="back">
-                <div class="dropdown">
-                  <button type="button" class="btn btn-primary dropdown-toggle" id="menu1" data-toggle="dropdown">ONIONS
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                    </ul>
-                  </div>
-                  <form id="myForm" class="form-inline">
-                    <div class="form-group">
-                      <h5>PRICE per KG KES.700</h5>
-                      <!-- <label for="quantity">QTY:</label> -->
-                      <input type="number" name="QTY" id="onion" class="form-control" placeholder="QTY(kg)">
-                    </div>
-                    <button type="button" name="button" id="buyonion" class="btn btn-success">BUY</button>
-                  </form>
-              </div>
-              <!-- IDEA: end of back -->
-            </div>
-            <!-- IDEA: end of onions -->
-            <div class="tomatoes">
-              <div class="front">
-                <h3>Tomatoes</h3>
-                <img src="images/tomatoes.jpg" alt="Tomatoes" id="tomatoes" title="TOMATOES">
-              </div>
-              <div class="back">
-                <div class="dropdown">
-                  <button type="button" class="btn btn-primary dropdown-toggle" id="menu1" data-toggle="dropdown">TOMATOES
-                    <span class="caret"></span></button>
-                  <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                  </ul>
-                </div>
-                <form id="myForm" class="form-inline">
-                  <div class="form-group">
-                    <h5>PRICE per KG KES.900</h5>
-                    <!-- <label for="quantity">QTY:</label> -->
-                    <input type="number" name="QTY" id="tomatoe" class="form-control" placeholder="QTY(kg)">
-                  </div>
-                  <button type="submit" name="button" id="buytomatoe" class="btn btn-success">BUY</button>
-                </form>
-              </div>
-              <!-- IDEA: end of back -->
-            </div>
-            <!-- IDEA: end of tomatoes -->
-            <div class="potatoes">
-              <div class="front">
-                <h3>Potatoes</h3>
-                <img src="images/potato.jpg" alt="Potatoes" id="potatoes" title="POTATOES">
-              </div>
-              <div class="back">
-                <div class="dropdown">
-                  <button type="button" class="btn btn-primary dropdown-toggle" id="menu1" data-toggle="dropdown">POTATOES
-                    <span class="caret"></span></button>
-                  <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                  </ul>
-                </div>
-                <form id="myForm" class="form-inline">
-                  <div class="form-group">
-                    <h5>PRICE per KG KES.600</h5>
-                    <!-- <label for="quantity">QTY:</label> -->
-                    <input type="number" name="QTY" id="potatoe" class="form-control" placeholder="QTY(kg)">
-                  </div>
-                  <button type="submit" name="button" id="buypotatoe" class="btn btn-success">BUY</button>
-                </form>
-              </div>
-              <!-- IDEA: end of back -->
-            </div>
-            <!-- IDEA: end of potatoes -->
+            <!-- IDEA: end of back -->
           </div>
+          <!-- IDEA: end of kales -->
+          <div class="onions">
+            <div class="front">
+              <h3>Onions</h3>
+              <img src="images/onion.jpg" alt="Onions" id="onions" title="ONIONS">
+            </div>
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-primary" id="menu1" data-toggle="dropdown">ONIONS
+                    </button>
+              </div>
+              <form id="onionForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.700</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="onion" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buyonion" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+          </div>
+          <!-- IDEA: end of onions -->
+          <div class="tomatoes">
+            <div class="front">
+              <h3>Tomatoes</h3>
+              <img src="images/tomatoes.jpg" alt="Tomatoes" id="tomatoes" title="TOMATOES">
+            </div>
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-primary" id="menu1" data-toggle="dropdown">TOMATOES
+                    </button>
+              </div>
+              <form id="tomatoeForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.900</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="tomatoe" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buytomatoe" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+          </div>
+          <!-- IDEA: end of tomatoes -->
+          <div class="potatoes">
+            <div class="front">
+              <h3>Potatoes</h3>
+              <img src="images/potato.jpg" alt="Potatoes" id="potatoes" title="POTATOES">
+            </div>
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-primary" id="menu1" data-toggle="dropdown">POTATOES
+                  </button>
 
-          <!-- IDEA: end of row -->
+              </div>
+              <form id="potatoeForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="potatoe" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buypotatoe" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+          </div>
+          <!-- IDEA: end of potatoes -->
+        </div>
 
+        <!-- IDEA: end of row -->
+
+
+      </div>
+      <!-- IDEA: end of cardContainer -->
+
+
+
+      <!-- <div class="jumbotron"> -->
+      <h2>FRUITS</h2>
+
+      <div class="cardContainer fadeInDown animated">
+        <div class="row">
+          <div class="bananas">
+
+            <div class="front">
+              <h3>Bananas</h3>
+              <img src="images/bananas.jpg" alt="Bananas" id="bananas" title="BANANAS">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-warning" id="menu1" data-toggle="dropdown">BANANAS
+                </button>
+
+              </div>
+              <form id="bananaForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.850</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="banana" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buybanana" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+
+            <!-- IDEA: end of back -->
+          </div>
+          <!-- IDEA: end of bananas -->
+          <div class="mangoes">
+
+            <div class="front">
+              <h3>Mangoes</h3>
+              <img src="images/Mangoes.jpg" alt="Mangoes" id="mangoes" title="MANGOES">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-warning dropdown-toggle" id="menu1" data-toggle="dropdown">MANGOES
+                  </button>
+
+              </div>
+              <form id="mangoeForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.690</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="mangoe" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buymangoe" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+          </div>
+          <!-- IDEA: end of mangoes -->
+          <div class="apples">
+
+            <div class="front">
+              <h3>Apples</h3>
+              <img src="images/Apples.jpg" alt="Apples" id="apples" title="APPLES">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-warning dropdown-toggle" id="menu1" data-toggle="dropdown">APPLES
+                  </button>
+
+              </div>
+              <form id="appleForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.1300</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="apple" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buyapple" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+          </div>
+          <!-- IDEA: end of apples -->
+          <div class="oranges">
+
+            <div class="front">
+              <h3>Oranges</h3>
+              <img src="images/Oranges.jpg" alt="Oranges" id="oranges" title="ORANGES">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-warning dropdown-toggle" id="menu1" data-toggle="dropdown">ORANGES
+                  </button>
+
+              </div>
+              <form id="orangeForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.750</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="orange" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buyorange" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+
+          </div>
+          <!-- IDEA: end of oranges -->
 
         </div>
-        <!-- IDEA: end of cardContainer -->
+        <!-- IDEA: end of row -->
 
+      </div>
+      <!-- IDEA: end of card container -->
 
+      <!-- </div> -->
+      <!-- IDEA: end of jumbotron -->
 
-        <!-- <div class="jumbotron"> -->
-        <h2>FRUITS</h2>
-        <p>In smart market, we do offer a variety of goods and services amongst them including fruits:
+      <!-- <div class="jumbotron"> -->
+      <h2>MEAT</h2>
 
-          <div class="cardContainer fadeInDown animated">
-            <div class="row">
-              <div class="bananas">
+      <div class="cardContainer fadeInDown animated">
+        <div class="row">
+          <div class="beefs">
 
-                <div class="front">
-                  <h3>Bananas</h3>
-                  <img src="images/bananas.jpg" alt="Bananas" id="bananas" title="BANANAS">
-                </div>
-                <!-- IDEA: end of front -->
-
-                <div class="back">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-warning dropdown-toggle" id="menu1" data-toggle="dropdown">BANANAS
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                    </ul>
-                  </div>
-                  <form id="myForm" class="form-inline">
-                    <div class="form-group">
-                      <h5>PRICE per KG KES.850</h5>
-                      <!-- <label for="quantity">QTY:</label> -->
-                      <input type="number" name="QTY" id="banana" class="form-control" placeholder="QTY(kg)">
-                    </div>
-                    <button type="submit" name="button" id="buybanana" class="btn btn-success">BUY</button>
-                  </form>
-                </div>
-
-                <!-- IDEA: end of back -->
-              </div>
-              <!-- IDEA: end of bananas -->
-              <div class="mangoes">
-
-                <div class="front">
-                  <h3>Mangoes</h3>
-                  <img src="images/Mangoes.jpg" alt="Mangoes" id="mangoes" title="MANGOES">
-                </div>
-                <!-- IDEA: end of front -->
-
-                <div class="back">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-warning dropdown-toggle" id="menu1" data-toggle="dropdown">MANGOES
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                    </ul>
-                  </div>
-                  <form id="myForm" class="form-inline">
-                    <div class="form-group">
-                      <h5>PRICE per KG KES.690</h5>
-                      <!-- <label for="quantity">QTY:</label> -->
-                      <input type="number" name="QTY" id="mangoe" class="form-control" placeholder="QTY(kg)">
-                    </div>
-                    <button type="submit" name="button" id="buymangoe" class="btn btn-success">BUY</button>
-                  </form>
-                </div>
-                <!-- IDEA: end of back -->
-              </div>
-              <!-- IDEA: end of mangoes -->
-              <div class="apples">
-
-                <div class="front">
-                  <h3>Apples</h3>
-                  <img src="images/Apples.jpg" alt="Apples" id="apples" title="APPLES">
-                </div>
-                <!-- IDEA: end of front -->
-
-                <div class="back">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-warning dropdown-toggle" id="menu1" data-toggle="dropdown">APPLES
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                    </ul>
-                  </div>
-                  <form id="myForm" class="form-inline">
-                    <div class="form-group">
-                      <h5>PRICE per KG KES.1300</h5>
-                      <!-- <label for="quantity">QTY:</label> -->
-                      <input type="number" name="QTY" id="apple" class="form-control" placeholder="QTY(kg)">
-                    </div>
-                    <button type="submit" name="button" id="buyapple" class="btn btn-success">BUY</button>
-                  </form>
-                </div>
-                <!-- IDEA: end of back -->
-              </div>
-              <!-- IDEA: end of apples -->
-              <div class="oranges">
-
-                <div class="front">
-                  <h3>Oranges</h3>
-                  <img src="images/Oranges.jpg" alt="Oranges" id="oranges" title="ORANGES">
-                </div>
-                <!-- IDEA: end of front -->
-
-                <div class="back">
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-warning dropdown-toggle" id="menu1" data-toggle="dropdown">ORANGES
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                    </ul>
-                  </div>
-                  <form id="myForm" class="form-inline">
-                    <div class="form-group">
-                      <h5>PRICE per KG KES.750</h5>
-                      <!-- <label for="quantity">QTY:</label> -->
-                      <input type="number" name="QTY" id="orange" class="form-control" placeholder="QTY(kg)">
-                    </div>
-                    <button type="submit" name="button" id="buyorange" class="btn btn-success">BUY</button>
-                  </form>
-                </div>
-                <!-- IDEA: end of back -->
-
-              </div>
-              <!-- IDEA: end of oranges -->
-
+            <div class="front">
+              <h3>Beef</h3>
+              <img src="images/beef.png" alt="Beef" id="beefs" title="BEEF">
             </div>
-            <!-- IDEA: end of row -->
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">BEEF
+                    </button>
+
+              </div>
+              <form id="beefForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.400</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="beef" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buybeef" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
 
           </div>
-          <!-- IDEA: end of card container -->
+          <!-- IDEA: end of beef -->
 
-          <!-- </div> -->
-          <!-- IDEA: end of jumbotron -->
+          <div class="chickens">
 
-          <!-- <div class="jumbotron"> -->
-          <h2>MEAT</h2>
-          <p>In smart market, we do offer a variety of goods and services amongst them including fruits:
-
-            <div class="cardContainer fadeInDown animated">
-              <div class="row">
-                <div class="beefs">
-
-                  <div class="front">
-                    <h3>Beef</h3>
-                    <img src="images/beef.png" alt="Beef" id="beefs" title="BEEF">
-                  </div>
-                  <!-- IDEA: end of front -->
-
-                  <div class="back">
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">BEEF
-                    <span class="caret"></span></button>
-                      <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                      </ul>
-                    </div>
-                    <form id="myForm" class="form-inline">
-                      <div class="form-group">
-                        <h5>PRICE per KG KES.400</h5>
-                        <!-- <label for="quantity">QTY:</label> -->
-                        <input type="number" name="QTY" id="beef" class="form-control" placeholder="QTY(kg)">
-                      </div>
-                      <button type="submit" name="button" id="buybeef" class="btn btn-success">BUY</button>
-                    </form>
-                  </div>
-                  <!-- IDEA: end of back -->
-
-                </div>
-                <!-- IDEA: end of beef -->
-
-                <div class="chickens">
-
-                  <div class="front">
-                    <h3>Kuku(Chicken)</h3>
-                    <img src="images/chicken.jpg" alt="chicken" id="chickens" title="CHICKEN">
-                  </div>
-                  <!-- IDEA: end of front -->
-
-                  <div class="back">
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">CHICKEN
-                    <span class="caret"></span></button>
-                      <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                      </ul>
-                    </div>
-                    <form id="myForm" class="form-inline">
-                      <div class="form-group">
-                        <h5>PRICE per KG KES.600</h5>
-                        <!-- <label for="quantity">QTY:</label> -->
-                        <input type="number" name="QTY" id="chicken" class="form-control" placeholder="QTY(kg)">
-                      </div>
-                      <button type="submit" name="button" id="buychicken" class="btn btn-success">BUY</button>
-                    </form>
-                  </div>
-                  <!-- IDEA: end of back -->
-
-                </div>
-                <!-- IDEA: end of chicken-->
-
-                <div class="fishs">
-
-                  <div class="front">
-                    <h3>Fish</h3>
-                    <img src="images/fish.jpg" alt="fish" id="fishs" title="FISH">
-                  </div>
-                  <!-- IDEA: end of front -->
-
-                  <div class="back">
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">FISH
-                    <span class="caret"></span></button>
-                      <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                      </ul>
-                    </div>
-                    <form id="myForm" class="form-inline">
-                      <div class="form-group">
-                        <h5>PRICE per KG KES.600</h5>
-                        <!-- <label for="quantity">QTY:</label> -->
-                        <input type="number" name="QTY" id="fish" class="form-control" placeholder="QTY(kg)">
-                      </div>
-                      <button type="submit" name="button" id="buyfish" class="btn btn-success">BUY</button>
-                    </form>
-                  </div>
-                  <!-- IDEA: end of back -->
-
-                </div>
-                <!-- IDEA: end of fish-->
-
-                <div class="minced">
-
-                  <div class="front">
-                    <h3>Minced Meat</h3>
-                    <img src="images/Mince-meat.jpg" alt="minced" id="minced" title="MINCED">
-                  </div>
-                  <!-- IDEA: end of front -->
-
-                  <div class="back">
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">MINCED
-                    <span class="caret"></span></button>
-                      <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                      </ul>
-                    </div>
-                    <form id="myForm" class="form-inline">
-                      <div class="form-group">
-                        <h5>PRICE per KG KES.600</h5>
-                        <!-- <label for="quantity">QTY:</label> -->
-                        <input type="number" name="QTY" id="mince" class="form-control" placeholder="QTY(kg)">
-                      </div>
-                      <button type="submit" name="button" id="buymince" class="btn btn-success">BUY</button>
-                    </form>
-                  </div>
-                  <!-- IDEA: end of back -->
-
-                </div>
-                <!-- IDEA: end of minced-->
-
-              </div>
-              <!-- IDEA: end of row -->
-
+            <div class="front">
+              <h3>Kuku (Chicken)</h3>
+              <img src="images/chicken.jpg" alt="chicken" id="chickens" title="CHICKEN">
             </div>
-            <!-- IDEA: end of cardContainer -->
+            <!-- IDEA: end of front -->
 
-            <!-- </div> -->
-            <!-- IDEA: end of jumbotron -->
-
-
-            <!-- <div class="jumbotron"> -->
-            <h2>DRINKS</h2>
-            <p>In smart market, we do offer a variety of goods and services amongst them including fruits:
-
-              <div class="cardContainer fadeInDown animated">
-                <div class="row">
-                  <div class="passionjuices">
-
-                    <div class="front">
-                      <h3>Passion</h3>
-                      <img src="images/passionjuice.jpg" alt="passion-juice" id="passionjuices" title="PASSION JUICE">
-                    </div>
-                    <!-- IDEA: end of front -->
-
-                    <div class="back">
-                      <div class="dropdown">
-                        <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">Passion
-                      <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                        </ul>
-                      </div>
-                      <form id="myForm" class="form-inline">
-                        <div class="form-group">
-                          <h5>PRICE per KG KES.600</h5>
-                          <!-- <label for="quantity">QTY:</label> -->
-                          <input type="number" name="QTY" id="passionjuice" class="form-control" placeholder="QTY(kg)">
-                        </div>
-                        <button type="submit" name="button" id="buypassionjuice" class="btn btn-success">BUY</button>
-                      </form>
-                    </div>
-                    <!-- IDEA: end of back -->
-
-                  </div>
-                  <!-- IDEA: end of passionjuice -->
-
-                  <div class="mangojuices">
-
-                    <div class="front">
-                      <h3>Mango</h3>
-                      <img src="images/mangojuice.png" alt="mango-juice" id="mangojuices" title="MANGO JUICE">
-                    </div>
-                    <!-- IDEA: end of front -->
-
-                    <div class="back">
-                      <div class="dropdown">
-                        <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">MANGO
-                      <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                        </ul>
-                      </div>
-                      <form id="myForm" class="form-inline">
-                        <div class="form-group">
-                          <h5>PRICE per KG KES.600</h5>
-                          <!-- <label for="quantity">QTY:</label> -->
-                          <input type="number" name="QTY" id="mangojuice" class="form-control" placeholder="QTY(kg)">
-                        </div>
-                        <button type="submit" name="button" id="buymangojuice" class="btn btn-success">BUY</button>
-                      </form>
-                    </div>
-                    <!-- IDEA: end of back -->
-
-                  </div>
-                  <!-- IDEA: end of mangojuice -->
-
-                  <div class="orangejuices">
-
-                    <div class="front">
-                      <h3>Orange</h3>
-                      <img src="images/orangejuice.jpg" alt="orange-juice" id="orangejuices" title="ORANGE JUICE">
-                    </div>
-                    <!-- IDEA: end of front -->
-
-                    <div class="back">
-                      <div class="dropdown">
-                        <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">ORANGE
-                      <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                        </ul>
-                      </div>
-                      <form id="myForm" class="form-inline">
-                        <div class="form-group">
-                          <h5>PRICE per KG KES.600</h5>
-                          <!-- <label for="quantity">QTY:</label> -->
-                          <input type="number" name="QTY" id="orangejuice" class="form-control" placeholder="QTY(kg)">
-                        </div>
-                        <button type="submit" name="button" id="buyorangejuice" class="btn btn-success">BUY</button>
-                      </form>
-                    </div>
-                    <!-- IDEA: end of back -->
-
-                  </div>
-                  <!-- IDEA: end of orangejuice -->
-
-                  <div class="fruitsmoothies">
-
-                    <div class="front">
-                      <h3>Smoothie</h3>
-                      <img src="images/smoothies.jpg" alt="fruit-smoothie" id="fruitsmoothies" title="FRUIT SMOOTHIE">
-                    </div>
-                    <!-- IDEA: end of front -->
-
-                    <div class="back">
-                      <div class="dropdown">
-                        <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">SMOOTHIES
-                      <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" arial-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WHOLESALE</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RETAIL</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONSUMER</a></li>
-                        </ul>
-                      </div>
-                      <form id="myForm" class="form-inline">
-                        <div class="form-group">
-                          <h5>PRICE per KG KES.600</h5>
-                          <!-- <label for="quantity">QTY:</label> -->
-                          <input type="number" name="QTY" id="smoothie" class="form-control" placeholder="QTY(kg)">
-                        </div>
-                        <button type="submit" name="button" id="buysmoothie" class="btn btn-success">BUY</button>
-                      </form>
-                    </div>
-                    <!-- IDEA: end of back -->
-
-                  </div>
-                  <!-- IDEA: end of fruitsmoothie -->
-
-                </div>
-                <!-- IDEA: end of row -->
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">CHICKEN
+                  </button>
 
               </div>
-              <!-- IDEA: end of cardContainer -->
+              <form id="chickenForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="chicken" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buychicken" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
 
-              <!-- </div> -->
-              <!-- IDEA: end of jumbotron -->
+          </div>
+          <!-- IDEA: end of chicken-->
 
-              <!-- </div> -->
-              <!-- IDEA: end of jumbotron -->
+          <div class="fishs">
+
+            <div class="front">
+              <h3>Fish</h3>
+              <img src="images/fish.jpg" alt="fish" id="fishs" title="FISH">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">FISH
+                    </button>
+
+              </div>
+              <form id="fishForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="fish" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buyfish" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+
+          </div>
+          <!-- IDEA: end of fish-->
+
+          <div class="minced">
+
+            <div class="front">
+              <h3>Minced Meat</h3>
+              <img src="images/Mince-meat.jpg" alt="minced" id="minced" title="MINCED">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-danger dropdown-toggle" id="menu1" data-toggle="dropdown">MINCED
+                    </button>
+
+              </div>
+              <form id="minceForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="mince" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buymince" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+
+          </div>
+          <!-- IDEA: end of minced-->
+
+        </div>
+        <!-- IDEA: end of row -->
+
+      </div>
+      <!-- IDEA: end of cardContainer -->
+
+      <!-- </div> -->
+      <!-- IDEA: end of jumbotron -->
+
+
+      <!-- <div class="jumbotron"> -->
+      <h2>DRINKS</h2>
+
+      <div class="cardContainer fadeInDown animated">
+        <div class="row">
+          <div class="passionjuices">
+
+            <div class="front">
+              <h3>Passion</h3>
+              <img src="images/passionjuice.jpg" alt="passion-juice" id="passionjuices" title="PASSION JUICE">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">PASSION
+                      </button>
+              </div>
+              <form id="passionjuiceForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="passionjuice" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buypassionjuice" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+
+          </div>
+          <!-- IDEA: end of passionjuice -->
+
+          <div class="mangojuices">
+
+            <div class="front">
+              <h3>Mango</h3>
+              <img src="images/mangojuice.png" alt="mango-juice" id="mangojuices" title="MANGO JUICE">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">MANGO
+                      </button>
+
+              </div>
+              <form id="mangojuiceForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="mangojuice" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buymangojuice" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+
+          </div>
+          <!-- IDEA: end of mangojuice -->
+
+          <div class="orangejuices">
+
+            <div class="front">
+              <h3>Orange</h3>
+              <img src="images/orangejuice.jpg" alt="orange-juice" id="orangejuices" title="ORANGE JUICE">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">ORANGE
+                      </button>
+
+              </div>
+              <form id="orangejuiceForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="orangejuice" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buyorangejuice" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+
+          </div>
+          <!-- IDEA: end of orangejuice -->
+
+          <div class="fruitsmoothies">
+
+            <div class="front">
+              <h3>Smoothie</h3>
+              <img src="images/smoothies.jpg" alt="fruit-smoothie" id="fruitsmoothies" title="FRUIT SMOOTHIE">
+            </div>
+            <!-- IDEA: end of front -->
+
+            <div class="back">
+              <div class="dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" id="menu1" data-toggle="dropdown">SMOOTHIES</button>
+
+              </div>
+              <form id="smoothieForm" class="form-inline">
+                <div class="form-group">
+                  <h5>PRICE per KG KES.600</h5>
+                  <!-- <label for="quantity">QTY:</label> -->
+                  <input type="number" name="QTY" id="smoothie" class="form-control" placeholder="QTY(kg)">
+                </div>
+                <button type="submit" name="button" id="buysmoothie" class="btn btn-success">BUY</button>
+              </form>
+            </div>
+            <!-- IDEA: end of back -->
+
+          </div>
+          <!-- IDEA: end of fruitsmoothie -->
+
+        </div>
+        <!-- IDEA: end of row -->
+
+      </div>
+      <!-- IDEA: end of cardContainer -->
+
+      <!-- </div> -->
+      <!-- IDEA: end of jumbotron -->
+
+      <!-- </div> -->
+      <!-- IDEA: end of jumbotron -->
 
     </div>
     <div class="invoice jumbotron">
-      <h4></h4>
       <h2>INVOICE</h2>
       <ul class="output">
-        <h4>ITEM:</h4>
-        <p class="goods"></p>
-        <h4>OUANTITY:</h4>
-        <p class="quantity"></p>
-        <h4>PRICE:</h4>
-        <p class="price"></p>
+
       </ul>
-      <h4>TOTAL:</h4>
-      <p class="total"></p>
+      <p>
+        Grand Total:<span class="gross"></span>
+      </p>
       <p><em>terms and conditions apply</em></p>
     </div>
     <!-- IDEA: end of invoice -->
