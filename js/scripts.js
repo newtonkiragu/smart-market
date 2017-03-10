@@ -11,7 +11,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     var kaleQuantity = parseInt($("input#kale").val());
-    var kalePrice = 700;
+    var kalePrice = 72;
     var kaleTotal = kaleQuantity * kalePrice;
     grossTotal += kaleTotal;
 
@@ -26,7 +26,7 @@ $(document).ready(function() {
   $("form#onionForm").submit(function(event) {
     event.preventDefault();
     var onionQuantity = parseInt($("input#onion").val());
-    var onionPrice = 700;
+    var onionPrice = 96;
     var onionTotal = onionQuantity * onionPrice;
     grossTotal += onionTotal;
     $("ul.output").append('<li><h4>ITEM: Onions</h4><ul><li><h4>QUANTITY: ' +
@@ -38,7 +38,7 @@ $(document).ready(function() {
   $("form#tomatoeForm").submit(function(event) {
     event.preventDefault();
     var tomatoeQuantity = parseInt($("input#tomatoe").val());
-    var tomatoePrice = 900;
+    var tomatoePrice = 92;
     var tomatoeTotal = tomatoeQuantity * tomatoePrice;
     grossTotal += tomatoeTotal;
     $("ul.output").append('<li><h4>ITEM: Tomatoe</h4><ul><li><h4>QUANTITY: ' +
@@ -51,7 +51,7 @@ $(document).ready(function() {
   $("form#potatoeForm").submit(function(event) {
     event.preventDefault();
     var potatoeQuantity = parseInt($("input#potatoe").val());
-    var potatoePrice = 600;
+    var potatoePrice = 97;
     var potatoeTotal = potatoeQuantity * potatoePrice;
     grossTotal += potatoeTotal;
     $("ul.output").append('<li><h4>ITEM: Potatoe</h4><ul><li><h4>QUANTITY: ' +
@@ -64,7 +64,7 @@ $(document).ready(function() {
   $("form#bananaForm").submit(function(event) {
     event.preventDefault();
     var bananaQuantity = parseInt($("input#banana").val());
-    var bananaPrice = 850;
+    var bananaPrice = 158;
     var bananaTotal = bananaQuantity * bananaPrice;
     grossTotal += bananaTotal;
     $("ul.output").append('<li><h4>ITEM: Banana</h4><ul><li><h4>QUANTITY: ' +
@@ -77,7 +77,7 @@ $(document).ready(function() {
   $("form#mangoeForm").submit(function(event) {
     event.preventDefault();
     var mangoeQuantity = parseInt($("input#mangoe").val());
-    var mangoePrice = 690;
+    var mangoePrice = 165;
     var mangoeTotal = mangoeQuantity * mangoePrice;
     grossTotal += mangoeTotal;
     $("ul.output").append('<li><h4>ITEM: Mangoe</h4><ul><li><h4>QUANTITY: ' +
@@ -90,7 +90,7 @@ $(document).ready(function() {
   $("form#appleForm").submit(function(event) {
     event.preventDefault();
     var appleQuantity = parseInt($("input#apple").val());
-    var applePrice = 1300;
+    var applePrice = 282;
     var appleTotal = appleQuantity * applePrice;
     grossTotal += appleTotal;
     $("ul.output").append('<li><h4>ITEM: Apple</h4><ul><li><h4>QUANTITY: ' +
@@ -103,7 +103,7 @@ $(document).ready(function() {
   $("form#orangeForm").submit(function(event) {
     event.preventDefault();
     var orangeQuantity = parseInt($("input#orange").val());
-    var orangePrice = 750;
+    var orangePrice = 223;
     var orangeTotal = orangeQuantity * orangePrice;
     grossTotal += orangeTotal;
     $("ul.output").append('<li><h4>ITEM: Orange</h4><ul><li><h4>QUANTITY: ' +
@@ -116,7 +116,7 @@ $(document).ready(function() {
   $("form#beefForm").submit(function(event) {
     event.preventDefault();
     var beefQuantity = parseInt($("input#beef").val());
-    var beefPrice = 400;
+    var beefPrice = 460;
     var beefTotal = beefQuantity * beefPrice;
     grossTotal += beefTotal;
     $("ul.output").append('<li><h4>ITEM: Beef</h4><ul><li><h4>QUANTITY: ' +
@@ -129,7 +129,7 @@ $(document).ready(function() {
   $("form#chickenForm").submit(function(event) {
     event.preventDefault();
     var chickenQuantity = parseInt($("input#chicken").val());
-    var chickenPrice = 600;
+    var chickenPrice = 606;
     var chickenTotal = chickenQuantity * chickenPrice;
     grossTotal += chickenTotal;
     $("ul.output").append('<li><h4>ITEM: Chicken</h4><ul><li><h4>QUANTITY: ' +
@@ -142,7 +142,7 @@ $(document).ready(function() {
   $("form#fishForm").submit(function(event) {
     event.preventDefault();
     var fishQuantity = parseInt($("input#fish").val());
-    var fishPrice = 600;
+    var fishPrice = 500;
     var fishTotal = fishQuantity * fishPrice;
     grossTotal += fishTotal;
     $("ul.output").append('<li><h4>ITEM: Fish</h4><ul><li><h4>QUANTITY: ' +
@@ -155,7 +155,7 @@ $(document).ready(function() {
   $("form#minceForm").submit(function(event) {
     event.preventDefault();
     var minceQuantity = parseInt($("input#mince").val());
-    var mincePrice = 600;
+    var mincePrice = 200;
     var minceTotal = minceQuantity * mincePrice;
     grossTotal += minceTotal;
     $("ul.output").append('<li><h4>ITEM: Minced Meat</h4><ul><li><h4>QUANTITY: ' +
@@ -168,7 +168,7 @@ $(document).ready(function() {
   $("form#passionjuiceForm").submit(function(event) {
     event.preventDefault();
     var passionjuiceQuantity = parseInt($("input#passionjuice").val());
-    var passionjuicePrice = 600;
+    var passionjuicePrice = 250;
     var passionJuiceTotal = passionjuiceQuantity * passionjuicePrice;
     grossTotal += passionJuiceTotal;
     $("ul.output").append('<li><h4>ITEM: Passion Juice</h4><ul><li><h4>QUANTITY: ' +
@@ -181,7 +181,7 @@ $(document).ready(function() {
   $("form#mangojuiceForm").submit(function(event) {
     event.preventDefault();
     var mangojuiceQuantity = parseInt($("input#mangojuice").val());
-    var mangojuice = 600;
+    var mangojuice = 250;
     var mangoJuiceTotal = mangojuiceQuantity * mangojuice;
     grossTotal += mangoJuiceTotal;
     $("ul.output").append('<li><h4>ITEM: Mango Juice</h4><ul><li><h4>QUANTITY: ' +
@@ -194,7 +194,7 @@ $(document).ready(function() {
   $("form#orangejuiceForm").submit(function(event) {
     event.preventDefault();
     var orangejuiceQuantity = parseInt($("input#orangejuice").val());
-    var orangejuicePrice = 600;
+    var orangejuicePrice = 250;
     var orangeJuiceTotal = orangejuiceQuantity * orangejuicePrice;
     grossTotal += orangeJuiceTotal;
     $("ul.output").append('<li><h4>ITEM: Orange Juice</h4><ul><li><h4>QUANTITY: ' +
@@ -207,7 +207,7 @@ $(document).ready(function() {
   $("form#smoothieForm").submit(function(event) {
     event.preventDefault();
     var smoothieQuantity = parseInt($("input#smoothie").val());
-    var smoothiePrice = 600;
+    var smoothiePrice = 250;
     var smoothieTotal = smoothieQuantity * smoothiePrice;
     grossTotal += smoothieTotal;
     $("ul.output").append('<li><h4>ITEM: Smoothie</h4><ul><li><h4>QUANTITY: ' +
