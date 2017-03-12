@@ -2,13 +2,17 @@ var grandTotal = 0;
 var grossTotal = 0;
 
 
-
 $(document).ready(function() {
+  if ("input#kale" < 0) {
+    alert("Field cannot be empty");
+
+  }
 
 
   // IDEA: Kales
   $("form#kaleForm").submit(function(event) {
     event.preventDefault();
+    // $("#invoice").show();
 
     var kaleQuantity = parseInt($("input#kale").val());
     var kalePrice = 72;
@@ -19,7 +23,6 @@ $(document).ready(function() {
       kaleQuantity + ' Kg</h4></li><li><h4>PRICE: Ksh' + kalePrice +
       '</h4></li><li><h4>TOTAL: Ksh' + kaleTotal + '</h4></li></ul></li>');
     $('.gross').text(grossTotal);
-
   });
 
   // IDEA: onions

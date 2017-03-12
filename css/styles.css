@@ -1,17 +1,10 @@
 /* IDEA: styles for goods and services css*/
 
-.front {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 300px;
-  backface-visibility: hidden;
-  background: #c6ffa7;
+.cardContainer {
+  perspective: 10000px;
 }
 
-.back {
-  transform: rotateY(180deg);
+.front, .back {
   position: absolute;
   top: 0;
   left: 0;
@@ -57,6 +50,8 @@
   width: 300px;
   margin-right: 0;
   /*position: fixed;*/
+  float: right;
+  /*display: none;*/
 }
 
 .body {
