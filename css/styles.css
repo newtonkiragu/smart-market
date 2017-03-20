@@ -66,6 +66,22 @@
   height: 400px;
 }
 
+.goShopping:link, .goShopping:visited {
+  display: block;
+  font-weight: bold;
+  color: white;
+  background-color: #c6ffa7;
+  width: 150px;
+  text-align: center;
+  padding: 7px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.goShopping:hover, .goShopping:active {
+  background-color: #97eb6a;
+}
+
 
 /* IDEA: end of goods and serices css*/
 
@@ -354,9 +370,10 @@ body {
   }
 }
 
-#headimage, #fadein, #expe {
+#headimage, #fadein, #expe, .goShopping {
   animation-duration: 6s;
   animation-name: fadein;
+  animation-iteration-count: infinite;
 }
 
 @keyframes fadein {
